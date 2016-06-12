@@ -1,6 +1,7 @@
 #!/usr/bin/python2.7
 #
-# Interface for the assignement
+# CSE 512 
+# Author: Aakanxu Shah
 #
 
 import psycopg2
@@ -201,8 +202,6 @@ if __name__ == '__main__':
         
     try:
 
-        
-
         # Use this function to do any set up before creating the DB, if any
         before_db_creation_middleware()
 
@@ -236,3 +235,5 @@ if __name__ == '__main__':
 
     except Exception as detail:
         print "OOPS! This is the error ==> ", detail
+        
+# Disclaimer for students : Be Original and Do not plagiarize ! :)
